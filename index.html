@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- reset.css destyle -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #main-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .accordion {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="global-container">
+    <div id="container">
+      <main>
+        <div id="main-container">
+          <div class="accordion">
+            <input type="checkbox" id="inputToggle-1" class="hidden accordion__toggle" checked="checked" />
+            <label class="accordion__ttl" for="inputToggle-1">
+              テキストテキストテキストテキストテキスト
+            </label>
+            <div class="accordion__content">
+              <p class="accordion__p">
+                テキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion">
+            <input type="checkbox" id="inputToggle-2" class="hidden accordion__toggle" />
+            <label class="accordion__ttl" for="inputToggle-2">
+              テキストテキストテキストテキストテキスト
+            </label>
+            <div class="accordion__content">
+              <p class="accordion__p">
+                テキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion">
+            <input type="checkbox" id="inputToggle-3" class="hidden accordion__toggle" />
+            <label class="accordion__ttl" for="inputToggle-3">
+              テキストテキストテキストテキストテキスト
+            </label>
+            <div class="accordion__content">
+              <p class="accordion__p">
+                テキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+
+
+          <div class="accordion">
+            <input type="checkbox" id="inputToggle-4" class="hidden accordion__toggle" />
+            <label class="accordion__ttl" for="inputToggle-4">
+              テキストテキストテキストテキストテキスト
+            </label>
+            <div class="accordion__content">
+              <p class="accordion__p">
+                テキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+
+        </div><!-- /#main-container -->
+      </main>
+    </div><!-- /#container -->
+  </div><!-- /#global-container -->
+
+</body>
+
+</html>
